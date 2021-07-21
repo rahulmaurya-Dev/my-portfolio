@@ -1,0 +1,75 @@
+.gallery {
+  /* padding:30px 10px;*/
+  height: 753px;
+  background: white;
+  min-height: 70vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1rem 1rem 25rem;
+}
+
+.gallery h1 {
+  padding-bottom: 20px;
+  margin-left: 500px;
+  font-size: 50px;
+  color: black;
+  font-family: Lucida Sans Unicode;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgba(192, 192, 192, 0.6);
+}
+
+.gallery .colmd3 {
+  height: 300px;
+  width: 300px;
+  display: flex;
+}
+
+.gallerybox {
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+}
+.gallerybox img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.gallery .row {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.colmd3 {
+  flex: 22.5%;
+  min-height: 40vh;
+  margin: 10px 15px;
+}
+
+.gallerybox img {
+  position: absolute;
+  border-radius: 10px;
+}
+.gallerybox img:hover {
+  transform: scale(1.1);
+}
+.gallerybox {
+  position: relative;
+}
+.gallerybox h4 {
+  width: 200px;
+  display: block;
+  font-size: 20px;
+  color: white;
+  text-shadow: -2px 2px 2px #000;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
